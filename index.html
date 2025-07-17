@@ -288,17 +288,10 @@
       <p class="name">Muchas muchas cosas que desearía decirte</p>
       <p class="name">pero mejor te creo esta paginita simple y a la carrera</p>
       </div>
-      <audio id="myAudio" autoplay muted>
-  <source src="assets/congratulations.mp3" type="audio/mpeg">
+      <audio autoplay>
+  <source src="assets/congratulations.mp3" type="audio/mp3">
 </audio>
 
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const audio = document.getElementById('myAudio');
-    audio.muted = false;
-    audio.play().catch(e => console.warn("No se pudo reproducir automáticamente:", e));
-  });
-</script>
 
   </body>
 </html>
